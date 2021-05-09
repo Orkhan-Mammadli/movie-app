@@ -1,0 +1,150 @@
+.movies{
+    padding-top:10px;
+    margin-bottom: 130px;
+}
+
+.movies > div > div:hover h2, .movies > div > div:hover .go_film{
+	background-color: #f9f9f9;
+}
+.tab_body .movies{
+    margin-bottom: 100px !important;
+}
+.tab_body .movies h2{
+    margin-top: 40px !important;max-height: 62px;
+}
+.movies h2{
+	font-size: 17px;
+	color: #000000;
+	padding-top: 10px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-family: Inter;
+    background: #F3F3F3;
+	padding-bottom: 10px;
+	min-height: 62px;
+    display: block;
+    text-align: center;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.movies > div > div:hover h2{
+	color: #fff;
+	background: #334E9E;
+}
+.movie_image{
+    position: relative;
+}
+.movie_image a{
+    display: block;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.movie_image img{
+    width: 100%;
+    display: block;
+    height: 370px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.poster_anim {
+    width: 100%;
+    display: block;
+    height: 290px;
+    overflow: hidden;	
+}
+
+.movies > div > div:hover .poster_anim img {
+	transform: scale(1.2,1.2);
+	transform-origin: center;
+}
+
+.poster_icons {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #334E9E;
+}
+
+.cc_tooltip > span {
+    width: 250px;
+    padding: 10px 20px;
+    margin-top: 0;
+    margin-left: -135px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+    font-family: 'Gotham-Medium';
+    font-size: 13px;
+    font-style: normal;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #999;
+}
+.cc_tooltip > span {
+	color: #334e9e; 
+	background: #fff;
+	background: -webkit-linear-gradient(top, #fff, #fff);
+	background: linear-gradient(top, #fff, #fff);	    
+	border: 1px solid #00ACEC;	     
+}
+.cc_tooltip:hover > span {
+    opacity: 1;
+    text-decoration: none;
+    visibility: visible;
+    overflow: visible;
+    margin-top: 60px;
+    display: inline;
+    margin-left: -110px;
+}
+.cc_tooltip>span>b {
+	background: #fff;
+	border-top: 1px solid #00ACEC;
+	border-right: 1px solid #00ACEC;
+}
+.cc_tooltip > span > b {
+    width: 15px;
+    height: 15px;
+    margin-left: 80px;
+    margin-top: -18px;
+    display: block;
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-box-shadow: inset -1px 1px 0 #fff;
+    -moz-box-shadow: inset 0 1px 0 #fff;
+    -o-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+}  
+
+.cctfix_1:hover > span {
+    margin-left: -106px;
+    margin-top: 69px;
+ }
+.go_film {
+    list-style: none;
+    background: #F3F3F3;
+    padding: 15px 0 15px 20px;
+}
+.go_film>li {
+    display: flex;
+    align-items: center;
+}
+.go_film>li>span {
+    width: 90px;
+}
+
+.go_film .detail {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}

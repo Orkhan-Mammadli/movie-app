@@ -1,0 +1,37 @@
+
+<div class="tab soon_list" style="display: block;">
+    <div class="movies container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6" *ngFor="let movie of movies">
+                <div class="movie_image">
+                    <a routerLink="/films-detail/{{ movie.id }}" href="javaScript:void(0)" >
+                        <h2>{{ movie.title }}</h2>
+                        <div class="poster_anim">
+                            <img src="assets/img/film-pianist.jpg"/>
+                        </div>
+                    </a>
+                    <div class="poster_icons">
+                            <span class="cc_tooltip cctfix_1"><span><b></b>Film 2D
+                                formatında nümayiş olunur</span><img src="../../assets/img/2d.png"
+                                alt="twod" style=" height: 44px; width: 48px;"></span>
+                                <span class="cc_tooltip cctfix_1"><span><b></b>Film Turk subtitrları ilə nümayiş
+                                olunur</span><img src="assets/img/flag.jpg" alt="azsub"
+                                style=" height: 44px; width: 48px;"></span>
+                    </div>
+                    <ul class="go_film">
+                        <li>
+                            <span>Rejissor:</span>
+                            <div class="detail">{{ movie.director }}</div>
+                        </li>
+                        <li>
+                            <span>Buraxılış ili:</span>
+                            <div class="detail">{{ movie.release_date }}</div>
+                        </li>
+                        <li>
+                            <span>Reytinq:</span>
+                            <div class="detail">{{ movie.rt_score }}</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>

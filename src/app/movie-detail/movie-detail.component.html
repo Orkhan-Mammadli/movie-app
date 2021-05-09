@@ -1,0 +1,61 @@
+<div class="tabs">
+    <div class="tab_header">
+        <a href="#" class="active" id="desc">TƏSVİR</a>
+    </div>
+    <div class="tab_body">
+        <div class="tab desc">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 pd-0">
+                    <div class="left_banner">
+                        <img src="assets/img/The_pianist.jpeg" height="400" width="300px" style="float:left;" alt="Black Widow">
+                        <div class="desc_film">
+                            <p>{{ selectedMovie?.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 pd-0">
+                    <div class="right_banner">
+                        <div class="movie_details">
+                            <div class="md_new">
+                                <br>
+                                <ul class="movie_details1">
+                                    <li>
+                                        <span>Adı:</span>
+                                        <div class="detail">{{ selectedMovie?.title }}</div>
+                                    </li>
+                                    <li>
+                                        <span>Adı:</span>
+                                        <div class="detail">{{ selectedMovie?.original_title }}</div>
+                                    </li>
+                                    <li>
+                                        <span>Rejissor:</span>
+                                        <div class="detail">{{ selectedMovie?.director }}  </div>
+                                    </li>
+                                    <li>
+                                        <span>Prodüser:</span>
+                                        <div class="detail">{{ selectedMovie?.producer }}</div>
+                                    </li>
+                                    <li>
+                                        <span>RT reytinqi</span>
+                                        <div class="detail">{{ selectedMovie?.rt_score}} </div>
+                                    </li>
+                                    <li>
+                                        <span>Uzunlugu</span>
+                                        <div class="detail">{{ selectedMovie?.running_time }} </div>
+                                    </li>
+                                </ul>
+                                <div class="clr"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clr"></div>
+        </div>
+        <div class="tab_header">
+            <a routerLink="/dashboard" href="#" class="active" id="desc">Digər filmlər</a>
+        </div>
+        <div class="tab_body"></div>
+    </div>
+</div>
+

@@ -1,0 +1,121 @@
+.tabs{
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+
+.tab{
+    display: none;
+}
+.tab:first-child{
+    display: block;
+}
+.tab_header{
+    margin-top: 30px;
+    text-align: center;
+    height: 46px;
+}
+.tab_header a{
+    color: #000;
+    border-radius: 5px 5px 0 0;
+    padding:15px 20px 12px 20px;
+    font-size:18px;
+    line-height: 21px;
+    text-decoration: none;
+    display: inline-block;
+}
+.tab_header a.active{
+    background: #334E9E;
+    color:#fff;
+}
+.tab_body,.list_cinemas{
+
+    border-top: 5px solid #334E9E;
+}
+
+.list_cinemas a {
+	
+	padding: 13px 10px;
+}
+
+.list_cinemas a:hover {
+	color: #fff;
+	background: #334E9E;
+}
+.left_banner,.right_banner{
+    height: 400px !important;
+}
+.left_banner{
+    background: #1D2730;
+}
+.left_banner h3{
+    color: #fff;
+    font-size:24px;
+    line-height: 32px;
+    margin-bottom: 22px;
+    font-family: 'Gotham-Medium';
+}
+
+
+.desc_film {
+	padding: 70px 48px 108px 335px;
+}
+.desc_film p {
+    color: #fff;
+    font-weight: 400;
+    font-family: Inter;
+    line-height: 1.7;
+}
+.right_banner img{
+    width: 100%;
+    cursor: pointer;
+}
+.right_banner {
+    height: 456px;
+    overflow: hidden;
+    position: relative;
+}
+.right_banner .video{
+    width: 100%;
+    display: none;
+}
+
+.movie_details{
+	padding: 50px 0;
+	min-height: 400px;
+    background: #F0F0F0;
+}
+.movie_details ul.movie_details1 li {
+    font-size:15px;
+    line-height: 19px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.movie_details ul li:first-child,.movie_details ul li:last-child{
+    border-bottom: none;
+}
+.movie_details ul li > span{
+    font-family: 'Gotham-Medium';
+    margin-right: 30px;
+    font-weight: 700;
+    font-family: Inter;
+    width: 120px;
+    color:#0075BC;
+    display: inline-block;
+}
+.detail{
+    display: inline-block;
+    max-width: 450px;
+    font-family: Inter;
+    font-weight: 700;
+}
+.movie_detail_container {
+    max-width: 1090px;
+    margin: auto;
+}
+
+.pd-0 {
+    padding: 0;
+}
